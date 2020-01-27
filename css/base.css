@@ -1,0 +1,85 @@
+body{
+    margin:0;
+}
+
+#head{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(90deg, rgba(240,184,107,0.7791317210477942) 0%, rgba(215,95,3,0.9696079115239846) 26%, rgba(222,121,33,1) 69%, rgba(240,184,107,0.7791317210477942) 100%);
+}
+
+#head span{
+    font-size: 40px;
+    color: #212121;
+    cursor: pointer;
+    float: left;
+    padding:10px;
+}
+
+.slide-nav{
+    float: right;
+    height: 92.5%;
+    width: 0;
+    position: absolute;
+    z-index: 200;
+    background: linear-gradient(90deg, rgba(240,184,107,0.7791317210477942) 0%, rgba(215,95,3,0.8771709367340687) 26%, rgba(222,121,33,0.7959384437368697) 69%, rgba(240,184,107,0.7791317210477942) 100%);
+}
+
+div nav ul li{
+    list-style: none;
+    padding: 20px 10px 20px 0;
+    border-bottom: 1px solid white;
+}
+
+div ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+
+div ul li a .icon{
+    font-size: 40px;
+    color: white;
+}
+
+div ul li a .tittle{
+    font-size: 20px;
+    color: white;
+    display: none;
+    text-decoration: none;
+}
+
+div ul li a #home:hover{
+    color: #A02182;
+}
+
+div ul li a #edit:hover{
+    color: #2B308E;
+}
+
+div ul li a #calendar:hover{
+    color: #CA1D4F;
+}
+
+div ul li a #upload:hover{
+    color: #C82D06;
+}
+
+div ul li a #key:hover{
+    color: #09940D;
+}
+
+#div-form{
+    margin-top: 20px;
+}
+
+#form_example{
+    margin-top: 30px;
+    width: 25%;
+    height: 60%;
+    margin:0 auto;
+    display: block;
+}
+
+div form .input-group{
+    margin:20px;
+}
